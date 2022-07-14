@@ -1,0 +1,554 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    input[type="text"] , input[type="password"] , input[type="search"] {
+        color: darkslategray;
+        width: 60%;
+        padding: 8px;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    input , textarea {
+        outline: none;
+        border: solid 1px lightgrey;
+    }
+
+    h1 ,h2 {
+        font-family: 'Russo One', sans-serif;
+        margin: 0 0 15px 0;
+        padding: 15px 0 5px 0;
+        color: white;
+        font-size: 170%;
+        letter-spacing: 3px;
+    }
+
+    h2 {
+        font-stretch: 140%;
+    }
+
+    a {
+        text-underline: none;
+        text-decoration: none;
+        color: white;
+        font-family: 'Comfortaa', cursive;
+    }
+
+    a:hover {
+        color: goldenrod;
+    }
+
+    p {
+        font-family: 'Comfortaa', cursive;
+        font-size: medium;
+        color: white;
+    }
+
+    ul {
+        margin: 2px 0 22px 17px;
+    }
+
+    ul li {
+        margin: 0 0 6px 0;
+        padding: 0 0 4px 5px;
+        line-height: 1.5em;
+    }
+
+    body {
+        font-size: 1.2em;
+        background-color: white;
+        color: white;
+    }
+
+    p {
+        padding: 0 0 20px 0;
+        line-height: 1.7em;
+    }
+
+.header {
+    background-color: darkslateblue;
+    height: 177px;
+    font-size: 0.8em;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_content, .footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 880px;
+    padding-bottom: 40px;
+}
+
+.logo h1 {
+    font-family: 'Russo One', sans-serif;
+    margin-left: 9px;
+    font-size: 30px;
+}
+.logo h2 {
+    font-family: 'Comfortaa', cursive;
+    margin-left: 9px;
+}
+.logo_text h1 , .logo_text h1 a , .logo_text h1 a:hover {
+    padding: 22px 0 0 0;
+    color: white;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+.logo_text h2 {
+    font-size: 0.9em;
+    padding-top: 4px;
+    color: lightgrey;
+}
+
+.menubar {
+    width: 900px;
+    height: 46px;
+}
+
+ul.menu {
+    float: right;
+    padding-right: 300px;
+}
+
+ul.menu li {
+    float: left;
+    padding-left: 9px;
+    list-style: none;
+    margin: 1px 2px 0 0;
+}
+
+ul.menu li a {
+    font-family:'Russo One', sans-serif;
+    display: block;
+    height: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 0 50px 5px 0;
+}
+
+ul.menu li.selected a {
+    color: darkgoldenrod;
+}
+
+ul.menu li a:hover {
+    color: goldenrod;
+}
+
+.site_content {
+    overflow: hidden;
+    width: 880px;
+    margin: 20px auto 0 auto;
+    background-color: white;
+}
+
+.sidebar_container {
+    float: right;
+    width: 224px;
+}
+
+.sidebar {
+    float: right;
+    width: 222px;
+    padding: 5%;
+    margin: 0 0 16px 0;
+    border: solid 1px darkslateblue;
+    border-radius: 5px;
+    background-color: darkslateblue;
+}
+
+.btn {
+    padding: 8px;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'Comfortaa', cursive;
+}
+
+.sidebar h2 {
+    color: white;
+}
+
+.lables_passreg_text {
+    font-family: 'Comfortaa', cursive;
+    color: lightgray;
+    text-decoration: none;
+    font-size: 0.6em;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.lables_passreg_text a:hover {
+    color: goldenrod;
+}
+
+.lables_news_text {
+    font-size: small;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+.lables_news_link {
+    margin-left: 80px;
+    font-size: 0.7em;
+}
+
+.sidebar ul {
+    margin: 0;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    font-size: 0.5em;
+    letter-spacing: 2px;
+    margin: 3px;
+    padding: 2px;
+}
+
+.sidebar .rating_sidebar {
+    float: right;
+    font-family: 'Comfortaa', cursive;
+}
+
+.content {
+    text-align: left;
+    width: 620px;
+    padding: 0 0 0 5px;
+    float: left;
+    background-color: darkslateblue;
+    border-radius: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    padding: 28px 0 5px 0;
+    text-align: center;
+    background-color: darkslateblue;
+    min-width: 900px;
+    margin-top: 50px;
+}
+
+.content h1{
+    margin-left: 20px;
+}
+
+.content_img {
+    width: 120px;
+    height: 200px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    background-color: white;
+    border: white 3px;
+    border-radius: 5px;
+}
+
+.film_block :hover img {
+    opacity: 0.5;
+}
+
+hr {
+    border: solid 2px;
+    color: goldenrod;
+    margin: 20px;
+    background-color: goldenrod;
+    border-radius: 5px;
+}
+
+.posts_container {
+    margin: 20px;
+}
+
+.posts .posts_content {
+    font-size: 0.8em;
+}
+
+.content_video {
+    margin: 10px;
+    padding: 22px;
+   background-color: black;
+    border-radius: 5px;
+}
+
+iframe {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.info_film_page {
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.8em;
+    margin: 1px;
+    padding: 3px;
+    text-align: center;
+}
+
+.info_film_page .label {
+    color: goldenrod;
+}
+
+.show_description h2 {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.description_film {
+    margin-bottom: 15%;
+    font-family: Comfortaa , cursive;
+    margin-top: 20px;
+}
+
+.description_film img{
+    float: left;
+    border-radius: 5px;
+    border: solid 5px goldenrod;
+    margin: 10px;
+    width: 200px;
+}
+
+.description_text {
+    padding-top: 50px;
+}
+
+.review_topic {
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.reviews {
+    margin-bottom: 4%;
+    font-size: 0.9em;
+}
+
+.reviews .reviews_name {
+    background-color: goldenrod;
+    color: black;
+    padding: 2%;
+    font-family: 'Comfortaa', cursive;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-left: 0;
+    margin-right: 5px;
+    font-size: 22px;
+}
+
+.reviews_text {
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+
+
+.send {
+    margin-bottom: 4%;
+    margin-left: 20px;
+}
+
+.send input[type="text"], textarea {
+    border: solid 1px ;
+    margin-bottom: 2%;
+}
+
+.send input[type="text"] {
+    width: 90%;
+}
+
+.send textarea {
+    width: 556px;
+    height: 200px;
+}
+
+.send input[type="submit"]{
+    margin-left: 230px;
+    background-color: goldenrod;
+    border: goldenrod 6px solid;
+    border-radius: 5px;
+}
+
+.paragraph {
+    margin-left: 20px;
+}
+
+.info_film img {
+    width: 220px;
+    padding: 30px 20px 50px 20px;
+    float: left;
+}
+
+.info_film p {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.info_film a {
+    padding-bottom: 50px;
+}
+
+.films_hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: bottom;
+}
+
+.info_film_paragraph {
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.info_film {
+    padding-bottom: 120px;
+}
+
+table {
+    width: 100%;
+    padding: 2%;
+}
+
+table img {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+    width: 60px;
+}
+
+.center {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+
+/*  CSS mobile  */
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width: 568px) {
+    .header {
+        background-color: #080222;
+        min-width: 100%;
+        height: 20%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .site_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .site_content h1,h2 {
+        font-size: 110%;
+    }
+
+    .menubar{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .sidebar_container {
+        display: none;
+        text-align: center;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    ul.menu{
+        float: none;
+        text-align: center;
+    }
+
+    ul.menu li{
+        float: none;
+        text-align: center;
+    }
+
+    .logo h1 {
+        font-size: 235%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo h2 {
+        font-size: 100%;
+        color: white;
+        margin: 0;
+        padding: 0;
+
+
+    }
+
+    .content {
+        width: 100%;
+        background-color: #080222;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .content h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .film_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        flex: 1;
+    }
+
+    .film_block a{
+        width: 60%;
+        height: 150%;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+    }
+
+    .film_block img {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .info_film {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+        text-align: center;
+    }
+
+    .description_film img {
+        float: none;
+    }
+
+}
+
